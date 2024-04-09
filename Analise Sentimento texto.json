@@ -1,0 +1,413 @@
+{
+    "documents": [
+        {
+            "id": "id__2254",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.39,
+                "neutral": 0.09,
+                "negative": 0.52
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.92,
+                        "neutral": 0.07,
+                        "negative": 0.01
+                    },
+                    "offset": 0,
+                    "length": 75,
+                    "text": "I think Facebook did a great thing with this \"new\" release of the quest 2. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.03,
+                        "negative": 0.96
+                    },
+                    "offset": 75,
+                    "length": 118,
+                    "text": "The headset itself feels quite nice, although the strap is definitely something to work on, it's way too front heavy. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 79,
+                            "length": 7,
+                            "text": "headset",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 106,
+                            "length": 4,
+                            "text": "nice",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 193,
+                    "length": 64,
+                    "text": "It's also extremely uncomfortable using glasses, unfortunately. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 233,
+                            "length": 7,
+                            "text": "glasses",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 213,
+                            "length": 13,
+                            "text": "uncomfortable",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.9,
+                        "negative": 0.04
+                    },
+                    "offset": 257,
+                    "length": 88,
+                    "text": "Even with that said, the Oculus link feature was the only reason I bought this headset; ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.72,
+                        "neutral": 0.26,
+                        "negative": 0.02
+                    },
+                    "offset": 345,
+                    "length": 42,
+                    "text": "and it's everything I could of asked for. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.78,
+                        "neutral": 0.08,
+                        "negative": 0.14
+                    },
+                    "offset": 387,
+                    "length": 174,
+                    "text": "My internet isn't even that good, all it needed was my laptop to be connected by ethernet for a smooth, high quality PCVR experience that I could take ANYWHERE IN THE HOUSE! ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 390,
+                            "length": 8,
+                            "text": "internet",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 415,
+                            "length": 4,
+                            "text": "good",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.17,
+                        "negative": 0.82
+                    },
+                    "offset": 561,
+                    "length": 82,
+                    "text": "I only had slight lags and stutters, but that's likely just my mediocre hardware. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.08,
+                                "negative": 0.92
+                            },
+                            "offset": 633,
+                            "length": 8,
+                            "text": "hardware",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.08,
+                                "negative": 0.92
+                            },
+                            "offset": 588,
+                            "length": 8,
+                            "text": "stutters",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.06,
+                        "negative": 0.94
+                    },
+                    "offset": 643,
+                    "length": 95,
+                    "text": "I'm a bit bummed by the comparably smaller control scheme compared to something like the vive.\n",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 686,
+                            "length": 14,
+                            "text": "control scheme",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 653,
+                            "length": 6,
+                            "text": "bummed",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.33,
+                        "neutral": 0.61,
+                        "negative": 0.06
+                    },
+                    "offset": 738,
+                    "length": 115,
+                    "text": "If you really want to have the best experience with this headset though, then don't put away that wallet just yet. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.16,
+                        "neutral": 0.69,
+                        "negative": 0.15
+                    },
+                    "offset": 853,
+                    "length": 101,
+                    "text": "At the very least, a new strap would be optimal, and I'd stay away from the first party elite strap. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.04,
+                        "neutral": 0.14,
+                        "negative": 0.82
+                    },
+                    "offset": 954,
+                    "length": 103,
+                    "text": "A new face cover might be good for you as well, as the default foam cover isn't the best for everyone.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 1057,
+                    "length": 74,
+                    "text": "Overall, this headset is a great step in the right direction for vr tech. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1073,
+                            "length": 7,
+                            "text": "headset",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/11/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1086,
+                            "length": 5,
+                            "text": "great",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.98,
+                        "negative": 0.02
+                    },
+                    "offset": 1131,
+                    "length": 70,
+                    "text": "Although, out of the box, it should be subject to some modifications; ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 1201,
+                    "length": 33,
+                    "text": "which some could call a feature.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.37,
+                        "neutral": 0.54,
+                        "negative": 0.09
+                    },
+                    "offset": 1234,
+                    "length": 68,
+                    "text": "One more thing, don't worry about the whole Facebook account thing. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.44,
+                        "neutral": 0.5,
+                        "negative": 0.06
+                    },
+                    "offset": 1302,
+                    "length": 85,
+                    "text": "If you're fine with using whatsapp or Instagram, this shouldn't be a problem either. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.93,
+                        "negative": 0.02
+                    },
+                    "offset": 1387,
+                    "length": 104,
+                    "text": "It's not like Facebook with Oculus is a new thing either, as Facebook has owned Oculus for 7 years now. ",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
