@@ -1,6 +1,6 @@
 # LanguageStudio
-Desafio AI Machine Learning -  LanguageStudio
+Desafio AI Machine Learning - LanguageStudio
 
-Cricao de recurso no Azure para conversao de vox em texto e tambem analisando 
-sentimento e expressões num texto selecionado.
+Criação de recurso no Azure para conversão de voz em texto e também analisando sentimento e
+expressões num texto selecionado.
 
